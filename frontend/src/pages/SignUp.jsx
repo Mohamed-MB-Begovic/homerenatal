@@ -107,7 +107,7 @@ const SignUp = () => {
 
 
 const signInWithGoogle = () => {
-    window.open('http://localhost:9000/auth/google', '_self');
+    window.open('https://homerenatal.onrender.com/auth/google', '_self');
   };
 
   return (
