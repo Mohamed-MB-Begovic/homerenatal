@@ -5,6 +5,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   "server":{
-    proxy:{"/api":"http://localhost:9000"}
+    proxy:{"/api":"https://homerenatal.onrender.com"}
   }
 })
