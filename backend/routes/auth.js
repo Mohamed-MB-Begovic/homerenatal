@@ -19,7 +19,7 @@ router.get('/:id', protect, getMe);
 router.put('/update-profile/:id', protect, updateUser);
 // router.put('/update-details', protect, authController.updateDetails);
 // router.put('/update-password', protect, authController.updatePassword);
-router.get('/logout', logout);
+// router.get('/logout', logout);
 
 // module.exports = router;
 
