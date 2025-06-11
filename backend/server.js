@@ -62,6 +62,7 @@ app.get(
 
 // Auth Status Check
 app.get('/api/login/success', (req, res) => {
+ console.log("login success")
   if (req.user) {
 console.log(req.user)
    const expiresIn=7*24*60*60
