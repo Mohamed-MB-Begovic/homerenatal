@@ -65,6 +65,7 @@ export const login = async (req, res) => {
 // Get logged-in user
 export const getMe = async (req, res) => {
   // console.log('in me')
+  console.log(req.params.id)
   try {
     const user = await User.findById(req.params.id).select('-password');
     res.json(user);
