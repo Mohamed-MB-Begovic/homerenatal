@@ -53,7 +53,7 @@ const Login = () => {
   };
 
   const handleGoogleLogin = () => {
-    window.open('http://localhost:9000/auth/google', '_self');
+    window.open('https://homerenatal.onrender.com/auth/google', '_self');
   };
   
   // Update handleSubmit for email/password login
