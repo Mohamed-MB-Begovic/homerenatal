@@ -67,8 +67,8 @@ const Login = () => {
       // console.log(data)
       login(data);
       toast.success('Login successful');
-      // navigate('/');
-      window.history.back();
+      navigate('/');
+     //  window.history.back();
     } catch (error) {
       // console.log(error)
       toast.error(error.response.data || 'Login failed');
