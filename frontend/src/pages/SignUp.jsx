@@ -106,14 +106,9 @@ const SignUp = () => {
   };
 
 
-  const signInWithGoogle =async()=>{
-    try {
-    await  axios.get('/auth/google')
-    // console.log('hell')
-    } catch (error) {
-      console.log(error)
-    }
-  }
+const signInWithGoogle = () => {
+    window.open('http://localhost:9000/auth/google', '_self');
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
